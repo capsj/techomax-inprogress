@@ -62,6 +62,10 @@ Primary use:
   -ms-box-shadow: 0 0px 10px 1px rgba(255,255,255,0.5);
 }
 
+.logo-size {
+  height: 110px;
+  background-size: contain;
+}
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
@@ -197,6 +201,11 @@ Primary use:
   line-height: 1.5;
 }
 
+.l1-txt2 h2 {
+  font-family: Ubuntu-Regular;
+  color: #fff;
+}
+
 .l1-txt3 {
   font-family: Ubuntu-Bold;
   font-size: 36px;
@@ -204,6 +213,12 @@ Primary use:
   line-height: 1;
 }
 
+.l1-txt4 {
+  font-family: Ubuntu-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+}
 
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
@@ -230,7 +245,7 @@ Primary use:
 [ Width ]*/
 .wsize1 {
   max-width: 100%;
-  width: 360px;
+  min-width: 360px;
 }
 
 .wsize2 {
@@ -249,14 +264,17 @@ Primary use:
 
 /*---------------------------------------------*/
 .bg-g1 {
-  background: #fb5f7e;
-  background: -webkit-linear-gradient(bottom, #f77062, #fe5196);
-  background: -o-linear-gradient(bottom, #f77062, #fe5196);
-  background: -moz-linear-gradient(bottom, #f77062, #fe5196);
-  background: linear-gradient(bottom, #f77062, #fe5196);
+  /* #00b14e, #10345e */
+  background: #10345e;
+  background: -webkit-linear-gradient(bottom, #00b14e, #9dcfde);
+  background: -o-linear-gradient(bottom, #00b14e, #9dcfde);
+  background: -moz-linear-gradient(bottom, #00b14e, #9dcfde);
+  background: linear-gradient(bottom, #00b14e, #9dcfde);
 }
 
-
+.a-button {
+  cursor: pointer!important;
+}
 
 
 
@@ -296,10 +314,11 @@ Primary use:
   padding: 0px 20px;
   background-color: #222222;
   border-radius: 25px;
-  color: #fff;
+  color: #fff!important;
   position: relative;
   z-index: 1;
   overflow: hidden;
+  cursor: pointer!important;
 }
 
 .how-btn::before {
@@ -312,10 +331,10 @@ Primary use:
   top: 0;
   left: 0;
   background: #fb2e57;
-  background: -webkit-linear-gradient(top, #f65342, #fb3282);
-  background: -o-linear-gradient(top, #f65342, #fb3282);
-  background: -moz-linear-gradient(top, #f65342, #fb3282);
-  background: linear-gradient(top, #f65342, #fb3282);
+  background: -webkit-linear-gradient(bottom, #1779ba, #6bbbe4);
+  background: -o-linear-gradient(bottom, #1779ba, #6bbbe4);
+  background: -moz-linear-gradient(bottom, #1779ba, #6bbbe4);
+  background: linear-gradient(bottom, #1779ba, #6bbbe4);
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
